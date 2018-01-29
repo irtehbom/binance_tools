@@ -1,0 +1,430 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-Jan-2018, 15:20:14
+    Author     : Rob
+*/
+
+/*
+ * Developer: Alireza Eskandarpour Shoferi
+ * Designer: Wouter de Bres (dribbble.com/wdeb)
+ *
+ * Distributed under the terms of the MIT license
+ * https://opensource.org/licenses/MIT
+ */
+.panel-success > .panel-heading {
+    color: white;
+    background-color: #1e282c;
+    border-color: #1e282c;
+}
+.panel-success {
+    border-color: #1e282c;
+}
+.amazon-link {
+
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+
+}
+
+.panel-title.pull-right.ads-remove a {
+    font-weight: bold;
+    color: white;
+    background: #1a2226;
+    padding: 3px 13px 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.panel-title.pull-right.ads-remove {
+    background: white;
+    padding: 10px;
+    color: black;
+}
+ .amazon-image {
+
+    height: 300px;
+    background-size: 55% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: 1px solid #ccc !important;
+
+}
+.user-status {
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.package {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 380px;
+  border: 3px solid #e8e8e8;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 24px;
+  text-align: center;
+  float: left;
+  -webkit-transition: margin-top 0.5s linear;
+  transition: margin-top 0.5s linear;
+  position: relative;
+  margin-right: 11px;
+}
+
+.package .name {
+  color: #565656;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: -5px;
+}
+.package .price {
+  margin-top: 7px;
+  font-weight: bold;
+}
+.package-body {
+    min-height: 133px;
+}
+.spacer-large {
+    height: 60px;
+    width: 100%;
+    float: left;
+}
+.price::after {
+  font-weight: normal;
+}
+.package hr {
+  background-color: #dedede;
+  border: none;
+  height: 1px;
+}
+.package .trial {
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 2px 21px 2px 21px;
+  color: #33c4b6;
+  border: 1px solid #e4e4e4;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  bottom: -20px;
+}
+.package ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 29px;
+}
+.package li {
+  margin-bottom: 15px;
+}
+.package .checkIcon {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+.tick::before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  font-size: 1.3rem;
+  color: #33c4b6;
+  margin-right: 3px;
+}
+
+.cross::before {
+  font-family: "FontAwesome";
+  content: "\f00d";
+  font-size: 1.3rem;
+  color: red;
+  margin-right: 3px;
+}
+.package .brilliant {
+  border-color: #33c4b6;
+}
+/* Triangle */
+.package .brilliant::before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 64px 64px 0 0;
+  border-color: #3bc6b8 transparent transparent transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+}
+.package .brilliant::after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  color: white;
+  position: absolute;
+  left: 9px;
+  top: 6px;
+  text-shadow: 0 0 2px #37c5b6;
+  font-size: 1.4rem;
+}
+
+
+.payment-options {
+    text-align: center;
+}
+.fav_tables th {
+    cursor:pointer;
+}
+
+#easy-loading-div {
+    width: 100%;
+    height: 100%;
+}
+h4 {
+    margin-bottom: 40px;
+    background: #2c3e50 !important;
+    color: white;
+    padding: 10px;
+}
+
+table {
+    word-wrap: break-word;
+}
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+
+.spacer {
+    height: 15px;
+    width: 100%;
+}
+
+.crypto img { 
+width:50%;
+}
+
+
+
+.col-sm-3.market-spacer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.encrypted {
+    position: absolute;
+    right: 0px;
+    z-index: 100;
+    top: 0px;
+    background: #008d4c;
+    color: white;
+    padding: 7px;
+    font-family: arial !important;
+}
+
+.form-control {
+	
+	font-size:13px;
+	font-family:arial;
+}
+.encrypted-style {
+    font-family: arial;
+    margin-left: 5px;
+}
+
+.fa {
+    font-size: 18px;
+}
+
+.fr-box.fr-basic .fr-element {
+    min-height: 350px !important;
+}
+
+#slug-error {
+    position: absolute;
+    right: 12px;
+    z-index: 99999999;
+    color: red;
+    font-weight: bold;
+    top: 5px;
+}
+
+#title-error {
+    position: absolute;
+    right: 12px;
+    z-index: 99999999;
+    color: red;
+    font-weight: bold;
+    top: 5px;
+}
+
+
+.bar {
+    height: 18px;
+    background: green;
+}
+
+.image-upload {
+    margin: 10px 0px 10px;
+}
+
+.upload-table-style td {
+    vertical-align: top;
+    padding: 20px 30px 0px 0px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.image-gallery-single {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+
+@media screen and (max-width: 480px) {
+.btn.btn-success.btn-lg.btn-block {
+    width: 100%;
+    font-size: 16px;
+}
+.package {
+
+    margin-top: 20px;
+}
+.panel-title.pull-right.ads-remove a {
+    font-weight: bold;
+    color: white;
+    background: #1a2226;
+    padding: 8px 0px;
+    border-radius: 3px;
+    margin-left: 0px;
+    font-size: 12px;
+    clear: both;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.panel-title.pull-right.ads-remove {
+    background: white;
+    padding: 10px;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.panel-title.pull-left.ads-title {
+    text-align: center;
+    float: none !important;
+    margin-bottom: 20px;
+}
+.user-status {
+    font-size: 10px;
+}
+}
